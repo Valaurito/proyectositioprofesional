@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Segurnet</title>
+</head>
+<body>
+    <header>
+        <h1>Segurnet "La seguridad que realmente nesecitas"</h1>
+<nav>
+   <ul>
+    <li> <a href="index.html">Inicio</a></li>
+    <li> <a href="servicio.html">Servicios</a></li>
+    <li> <a href="nosotros.html">Sobre nosotros</a></li>
+    <li><a href="testimonios.html">Testimonios</a></li>
+    <li> <a href="contacto.html">Contacto</a></li>
+   </ul>
+</nav>
+    </header>
+    <main>
+        <img src="img/LOGO SEGURNET.jpg" alt="logo" width="200" height="200">
+        <h2>Contacto</h2>
+        <p>Rellene los siguientes para ser atendido a la brevedad.</p>
+        <form action="enviar_solicitud.php" method="post">
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+    
+            <label for="apellido">Apellido:</label><br>
+            <input type="text" id="nombre" name="apellido" required><br><br>
+
+            <label for="email">Correo electrónico:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+    
+            <label for="telefono">Teléfono:</label><br>
+            <input type="tel" id="telefono" name="telefono" required><br><br>
+    
+            <div>
+            <label for="plan">Plan:</label>
+                    <SELECT name="area" placeholder="Elija una area a donde enviar" class="select" maxlength="255" value="" id="SelectName">
+                	<OPTION VALUE="hogar">Residencial</OPTION><OPTION VALUE="negocio">Empresarial</OPTION>					</SELECT>
+            </div>
+
+            <label for="direccion">Dirección:</label><br>
+            <input type="text" id="direccion" name="direccion" required><br><br>
+    
+            <label for="mensaje">Mensaje:</label><br>
+            <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea><br><br>
+    
+            <input type="submit" value="Enviar">
+        
+    </main>
+    <footer>
+        <p>Teléfono: +54 9 11 2345 6789
+            Correo electrónico: info@segurinet.com
+            Instagram: @segurinetarg
+            Facebook: /segurinetargentina
+            YouTube: /segurinetargentina
+            </p>
+    </footer>
+</body>
+</html>
